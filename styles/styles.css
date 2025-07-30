@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{  /* aqui global configuration */
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+body{
+    background: url('../images/img2.wallspic.com-vivo_x90_pro-light-smartphone-alive-wood-1260x2800.jpg') no-repeat top center;
+    background-size: cover; /*a imagem cobre a tela inteira*/
+    background-attachment: fixed; /* deixa a imagem fixa pra não haver rolagem da pagina*/
+}
+main{
+    height: 100vh;
+    position: relative;
+}
+section#iphone{
+    position: absolute; /* deixa o objeto sempre numa posição fixed */
+    width: 287px;
+    height: 600px;
+    top: 50%; /* posição do topo do object*/
+    left: 50%;/* posição do final do object*/
+    transform:translate(-50%, -50%); /* configura o object in middle */
+
+    border-radius: 20px;
+    background:url(../images/iphone.png) no-repeat; /*photo do telefone*/
+}
+p#camera{
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    border-radius: 15px;
+    top: 3.4%;
+    left: 36%;
+    background-color: rgb(0, 0, 0);
+}
