@@ -50,3 +50,21 @@ iframe#tela{
     width: 255px;
     height: 570px;
 }
+section#background {
+    text-align: right;
+    
+}
+
+section#background img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section#background img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.837);
+    transform: translate(-5%, -5%);
+    transition: transform .5s, border .4s;
+
+}
